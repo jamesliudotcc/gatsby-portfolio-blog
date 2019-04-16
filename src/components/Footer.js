@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import { graphql } from 'gatsby'
+
+import contactData from './../data/contact'
 
 const styles = {
   rootContainer: {
@@ -17,10 +20,17 @@ export class Footer extends Component {
   render() {
     return (
       <div style={styles.rootContainer}>
-        Built with&nbsp;
-        <a href="https://gatsbyjs.org" target="_blank">
-          GatsbyJS
-        </a>
+        <p>
+          {Object.keys(contactData).map(key => {
+            if (contactData[key]) {
+              return (
+                <a href={contactData[key]} target="_new">
+                  {key}
+                </a>
+              )
+            }
+          })}
+        </p>
       </div>
     )
   }

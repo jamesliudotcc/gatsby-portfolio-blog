@@ -7,7 +7,7 @@ const Header = () => {
         textAlign: 'center',
       }}
     >
-      {/* <h2>Site Title</h2> */}
+      <h2>James Liu, Web Dev</h2>
     </div>
   )
 }

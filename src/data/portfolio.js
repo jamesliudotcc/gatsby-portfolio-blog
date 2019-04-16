@@ -1,39 +1,45 @@
-import Image1 from './../assets/images/image1.jpg'
-import Image2 from './../assets/images/image2.jpg'
-import Image3 from './../assets/images/image3.jpg'
+import FoxAndGeese from './../assets/images/foxandgeese.png'
+import WalletPhotos from './../assets/images/comment.png'
+import Syllaboard from './../assets/images/syllaboard.png'
+import Spotdash from './../assets/images/spotdash.png'
+import Nautilus from './../assets/images/nautilus.jpg'
 
 const data = [
   {
-    title: 'Project 1',
+    title: 'Fox and Geese',
     website: 'https://example.com',
+    github: 'https://www.github.com/jamesliu.cc/',
     description: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue
     eget arcu dictum varius duis.`,
-    image: Image1,
+    image: FoxAndGeese,
   },
   {
-    title: 'Project 2',
+    title: 'Wallet Photos',
     website: 'https://example.com',
+    github: 'https://www.github.com/jamesliu.cc/',
     description: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue
     eget arcu dictum varius duis.`,
-    image: Image2,
+    image: WalletPhotos,
   },
   {
-    title: 'Project 3',
+    title: 'Syllaborad',
     website: 'https://example.com',
+    github: 'https://www.github.com/jamesliu.cc/',
     description: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue
     eget arcu dictum varius duis.`,
-    image: Image3,
+    image: Syllaboard,
   },
   {
-    title: 'Project 4',
+    title: 'Spotdash',
     website: 'https://example.com',
+    github: 'https://www.github.com/jamesliu.cc/',
     description: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue
     eget arcu dictum varius duis.`,
-    image: Image1,
+    image: Spotdash,
   },
 ]
 

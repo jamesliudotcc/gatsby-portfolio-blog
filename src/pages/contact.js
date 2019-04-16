@@ -31,7 +31,7 @@ class Contact extends React.Component {
               <p>
                 <b>{key}: </b>
                 <a href={contactData[key]} target="_new">
-                  {contactData[key]}
+                  Go
                 </a>
               </p>
             )

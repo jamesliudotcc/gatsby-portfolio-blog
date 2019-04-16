@@ -4,7 +4,7 @@ import React from 'react'
 import 'typeface-montserrat'
 import 'typeface-merriweather'
 
-import profilePic from './../assets/images/avatar.png'
+import profilePic from './../assets/images/avatar.jpg'
 import { rhythm } from '../utils/typography'
 import bioData from './../data/bio'
 
@@ -19,7 +19,7 @@ class Bio extends React.Component {
       >
         <img
           src={profilePic}
-          alt={`Sai Krishna`}
+          alt={`James Liu`}
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,

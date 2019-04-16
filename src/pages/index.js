@@ -4,7 +4,7 @@ import get from 'lodash/get'
 import Hemlet from 'react-helmet'
 
 import Layout from '../components/Layout'
-import DisplayImage from './../assets/images/main_image.jpg'
+import DisplayImage from './../assets/images/road.jpg'
 
 class SiteIndex extends React.Component {
   render() {
@@ -21,19 +21,15 @@ class SiteIndex extends React.Component {
           <meta name="description" content={siteDescription} />
         </Hemlet>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue
-          eget arcu dictum varius duis. Vestibulum lectus mauris ultrices eros
-          in cursus turpis. Blandit volutpat maecenas volutpat blandit aliquam
-          etiam. Sagittis purus sit amet volutpat. Nullam ac tortor vitae purus
-          faucibus ornare suspendisse. Vulputate sapien nec sagittis aliquam
-          malesuada. Quis imperdiet massa tincidunt nunc pulvinar sapien et
-          ligula ullamcorper. Sit amet cursus sit amet dictum sit amet.
-          Malesuada proin libero nunc consequat interdum varius sit amet. Sed
-          egestas egestas fringilla phasellus faucibus scelerisque eleifend.
-          Habitasse platea dictumst quisque sagittis. Sem viverra aliquet eget
-          sit amet tellus cras adipiscing enim. Amet massa vitae tortor
-          condimentum lacinia quis vel eros donec.
+          I solve problems with code. I am most comfortable working with backend
+          technologies such as Node.js, Express, Django, and Phoenix.
+        </p>
+        <p>
+          Sending data between the front and backend? I am comfortable with REST
+          and GraphQL. I also make beautiful, minimalist, and typographically
+          sensitive frontends using Html, CSS, React, and Tachyons. I believe in
+          helping the computer help me solve problems, so I enjoy using
+          Typescript and modern ES6+ Javascript.
         </p>
         <img src={DisplayImage} alt={siteTitle} />
       </Layout>
