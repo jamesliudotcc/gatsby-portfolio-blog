@@ -1,18 +1,21 @@
 import React, { Component } from 'react'
-import { graphql } from 'gatsby'
 
 import contactData from './../data/contact'
 
 const styles = {
   rootContainer: {
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'center',
-    fontSize: 10,
-    textTransform: 'uppercase',
     letterSpacing: 2,
     color: 'gray',
-    paddingTop: 15,
+  },
+  footerUnorderedList: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+  },
+  footerListItem: {
+    listStyleType: 'none',
+    marginRight: '10',
+    marginLeft: '10',
   },
 }
 
@@ -20,17 +23,19 @@ export class Footer extends Component {
   render() {
     return (
       <div style={styles.rootContainer}>
-        <p>
+        <ul style={styles.footerUnorderedList}>
           {Object.keys(contactData).map(key => {
             if (contactData[key]) {
               return (
-                <a href={contactData[key]} target="_new">
-                  {key}
-                </a>
+                <li style={styles.footerListItem}>
+                  <a href={contactData[key]} target="_new">
+                    {key}
+                  </a>
+                </li>
               )
             }
           })}
-        </p>
+        </ul>
       </div>
     )
   }

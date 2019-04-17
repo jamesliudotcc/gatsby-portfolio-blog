@@ -44,7 +44,7 @@ class portfolioIndex extends React.Component {
                       <div
                         style={{
                           width: 250,
-                          height: 200,
+                          height: 250,
                           margin: 10,
                           background: `url(${p.image})`,
                           backgroundSize: 'cover',

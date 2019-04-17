@@ -1,16 +1,16 @@
 import React from 'react'
 import { FaAward, FaPaperPlane } from 'react-icons/fa'
 
-import Image1 from './../assets/images/image1.jpg'
-import Image2 from './../assets/images/image2.jpg'
-import Image3 from './../assets/images/image3.jpg'
+import Road from './../assets/images/road.jpg'
+import Sunset from './../assets/images/sunset.jpg'
+import Peak from './../assets/images/peak.jpg'
 
 const data = [
   {
     date: 'March 2019',
     headline: 'Graduated General Assembly',
     description: `Finished with coding school. Twelve weeks of going as hard as I could. The journey continues.`,
-    image: Image1,
+    image: Road,
     icon: <FaAward />,
   },
   {
@@ -20,7 +20,7 @@ const data = [
     calculate patent term expiration. A startup was going to charge $40 a pop for this service,
     but I knew enough to know that it wasn't the hardest thing to implement. For a brief time, 
     I had it deployed to the web using Flask.`,
-    image: Image2,
+    image: Sunset,
     icon: <FaPaperPlane />,
   },
 
@@ -31,7 +31,7 @@ const data = [
     malesuada. Quis imperdiet massa tincidunt nunc pulvinar sapien et
     ligula ullamcorper. Yes, that is random placeholder text in Latin.
     There's a lot of that in law.`,
-    image: Image3,
+    image: Peak,
     icon: <FaPaperPlane />,
   },
 ]

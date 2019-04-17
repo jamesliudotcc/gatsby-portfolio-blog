@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-minimal-portfolio-blog',
+    title: 'By James Liu',
     author: 'James Liu',
     description: 'James Liu developer portfolio.',
     siteUrl: 'http://jamesliu.cc',
