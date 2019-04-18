@@ -52,7 +52,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/s-kris/gatsby-minimal-portfolio-blog.git"
+    "url": "git+https://github.com/jamesliudotcc/gatsby-portfolio-blog.git"
   },
   "scripts": {
     "dev": "gatsby develop",
