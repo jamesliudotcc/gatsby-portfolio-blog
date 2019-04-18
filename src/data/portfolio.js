@@ -58,8 +58,8 @@ const data = [
   {
     title: 'Portfolio',
     website: 'https://hackathon-spotdash.herokuapp.com/',
-    github: 'https://github.com/jamesliudotcc/grocery-list-python',
-    description: `I made this portfolio page with a blog using Gatsby.`,
+    github: 'https://github.com/jamesliudotcc/gatsby-portfolio-blog',
+    description: `I made this portfolio page with a blog using Gatsby. It was an excuse to try out a new technology. I like it so far.`,
     image: Nautilus,
   },
 ]
