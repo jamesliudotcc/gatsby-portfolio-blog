@@ -3,7 +3,7 @@ module.exports = {
     title: 'By James Liu',
     author: 'James Liu',
     description: 'James Liu developer portfolio.',
-    siteUrl: 'http://jamesliu.cc',
+    siteUrl: 'http://www.jamesliu.cc',
   },
   pathPrefix: '/',
   plugins: [
