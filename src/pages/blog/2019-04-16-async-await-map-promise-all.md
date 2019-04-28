@@ -94,4 +94,4 @@ fetch('http://swapi.co/api/people/2/')
   })
 ```
 
-For me, the first set of .then().then() is pretty semantic, I can follow that almost as well as the async/await syntax. But once we're inside the Promise.all(), things start getting hard to follow using only the promises syntax. Whatever action we are going to perform on the films will replace the console.log, and in the .then chaining syntax, that is already buried 3-levels of indentation deep. Shallow code is easy to understand code. 
+For me, the first set of .then().then() is pretty semantic, I can follow that almost as well as the async/await syntax. But once we're inside the `Promise.all()`, things start getting hard to follow using only the promises syntax. Whatever action we are going to perform on the films will replace the console.log, and in the `.then` chaining syntax, that is already buried 3-levels of indentation deep. Shallow code is easy to understand code.
