@@ -1,0 +1,34 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "13:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: gatsby-remark-images
+    versions:
+    - 3.10.0
+    - 3.11.0
+  - dependency-name: gatsby-remark-copy-linked-files
+    versions:
+    - 2.9.0
+  - dependency-name: gatsby-plugin-typography
+    versions:
+    - 2.11.0
+  - dependency-name: gatsby-plugin-google-analytics
+    versions:
+    - 2.10.0
+  - dependency-name: react-icons
+    versions:
+    - 4.1.0
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: prismjs
+    versions:
+    - 1.21.0
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
